@@ -1,8 +1,9 @@
-import 'bloc/onboarding_bloc.dart';
-import 'models/onboarding_model.dart';
 import 'package:ajestores/core/app_export.dart';
 import 'package:ajestores/widgets/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
+
+import 'bloc/onboarding_bloc.dart';
+import 'models/onboarding_model.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({Key? key})
